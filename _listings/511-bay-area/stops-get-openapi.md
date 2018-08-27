@@ -6,14 +6,14 @@ info:
   title: Bay Area 511 Transit API Stops API
   description: San francisco 511 transit stops api.
   version: 1.0.0
-host: api.511.org
-basePath: /transit
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.511.org
+basePath: /transit
 paths:
   /operators:
     get:
